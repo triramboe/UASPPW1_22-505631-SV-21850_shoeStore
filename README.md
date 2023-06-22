@@ -36,5 +36,22 @@ pada bagian spesial promo kami jadikan flex sehingga ketika ukuran kayar diminim
 ![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/ed520a69-8732-444c-a92e-5c26f457fa1f)
 
 
+#memberikan feedback
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/daada178-f3a7-48b2-882a-49fe3ea33071)
+memberikan ucapan selamat datang kepada pengguna
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/ce9984e6-0527-450b-8b12-04575abcc508)
+memberikan alret apabila admin sudah menyimpan data
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/07b14086-18a8-43a3-9feb-13311d5d61c3)
+memberikan alret validasi kepada admin
+
+#konten dinamis
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/2e582fdf-ec99-427c-ba86-fdb7e12908cf)
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/832bf5bd-5dff-4a76-8e32-1cf5cd86cb0a)
+menampilkan data yang sekiranya mirip atau sesuai dengan data yang dicari.
+
+
+
+
+
 
 
