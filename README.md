@@ -19,4 +19,22 @@ Secara keseluruhan, Shoestore bertujuan untuk menjadi destinasi utama bagi para 
 Requirement Dasar:
 
 #Mengikuti Prinsip Desain
-deasain pada website ini mengambil tema sederhana, dimana hal ini ditujukan untuk memudahkan pengunjung webiste untuk mengakses serta menggunakan website ini. warna yang digunakan pun tidak terlalu kompleks sehingga berkesan sederhana. warna utama yang digunakan pada website ini adalah hitam dan putih
+deasain pada website ini mengambil tema sederhana, dimana hal ini ditujukan untuk memudahkan pengunjung webiste untuk mengakses serta menggunakan website ini. warna yang digunakan pun tidak terlalu kompleks sehingga berkesan sederhana. warna utama yang digunakan pada website ini adalah hitam dan putih. selain itu font yang digunakan adalah Poppins yang berkesan sederhana, jelas dan enak dilihat.
+
+#website responsive
+website ini menggunakan mediaquery dan juga bootstrap dalam membuatnya menjadi responsive
+contoh:
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/c4202ce9-4e70-4558-a259-3aadc1dbbb5f)
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/ebaa5fe3-e802-45ab-af36-11d91e534063)
+contoh diatas adalah rrsponsive navbar yang berubah apabila ukuran layar dikecilkan. maka elemen elemen navbar ketika berada di bawah 992px akan menyatu menjadi menu dropdown.
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/bc6aec32-3b13-4808-a5e2-c2da27412036)
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/3cb53765-7566-467d-a3c9-e76f5cf38986)
+
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/21646cfa-2dee-4db1-9147-095694cc98bc)
+pada bagian spesial promo kami jadikan flex sehingga ketika ukuran kayar diminimize elemen akan ke bawah menyesuaikan.
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/0589b64a-d7a7-4849-a538-e600cc6770b0)
+![image](https://github.com/triramboe/UASPPW1_22-505631-SV-21850_shoeStore/assets/133026082/ed520a69-8732-444c-a92e-5c26f457fa1f)
+
+
+
+
