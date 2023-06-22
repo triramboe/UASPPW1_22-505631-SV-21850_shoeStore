@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --main-font: 'Poppins', sans-serif;
+    --black: #000000;
+    --white: #ffff;
+    
+}
+
+body{
+    font-family: var(--main-font);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+/* button */
+.bg-primary{
+    background-color: var(--black);
+}
+
+/* navbar */
+.navbar{
+    -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand{
+    color: var(--black);
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+.navbar-brand i{
+    color: #000000;
+}
+
+.nav-link:hover{
+    color: var(--white)!important;
+    background-color: #000000;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+.icons #menu-bars{
+    display: none;
+}
+.navbar.hidden {
+    top: -50px;
+}
+
+.search-container {
+    display: none;
+  }
+
+/* home */
+#home{
+    background-image: url('../asset/air-caucasian-professional-male-athlete-runner-training-isolated-white-background.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home span{
+    color: #ff0000;
+}
+
+#home button{
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+    border-style: dashed;
+    font-size: large;
+    font-weight: 700;
+    height: 47px; width: 160px;
+}
+
+#home button:hover{
+    background-color: #000000;
+    border:none;
+    color: #ffffff;
+    transition: 0.5 ease-in-out;
+}
+
+#product{
+    margin-top: 50px;
+}
+
+/* special */
+
+#special{
+    background-color: #a7a7a7;
+}
+.special-img{
+    box-shadow: 5px 10px;
+}
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px!important;
+}
+.special-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+.button-promo button{
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+    font-size: medium;
+    font-weight: 700;
+    height: 47px; width: 160px;
+}
+.button-promo button:hover{
+    background-color: #ffffff;
+    border:none;
+    color: #000000;
+    transition: 0.5 ease-in-out;
+}
+
+
+/* offer */
+#offer{
+    background-image: url("../asset/6272.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#offer span{
+    color: #ff0000;
+}
+
+#offer button{
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+    border-style: dashed;
+    font-size: large;
+    font-weight: 700;
+    height: 47px; width: 160px;
+   
+}
+
+#offer button:hover{
+    background-color: #000000;
+    border:none;
+    color: #ffffff;
+    transition: 0.5 ease-in-out;
+}
+#offer h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+
+/* brand */
+
+.brand-img span{
+    top: 20px;
+    right: 20px;
+}
+.brand-list .btn{
+    padding: 8px 20px!important;
+}
+.brand-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.brand-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+
+/* collection */
+.active-filter-btn{
+    background-color: #000 !important;
+    color: #fff!important;
+    border-color: #000 !important;
+}
+.filter-button-group .btn:hover{
+    color: #fff!important;
+    
+}
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+
+
+/* footer */
+footer .brand{
+    font-family: var(--main-font);
+    letter-spacing: 2px;
+}
+footer a{
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+footer a:hover{
+    color: #fff !important;
+}
+
+
+/* media queries */
+
+@media(max-width: 992px){
+
+    body {
+        font-size: 55%;
+      }
+
+    html{
+        font-size: 55%;
+    }
+    
+    .icons #menu-bars{
+        display: inline-block;
+    }
+    .navbar-item{
+        position: absolute;
+        top:100%; left:0; right: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .navbar-item.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    
+}
+
+
+        /*------------------------------ cart items ------------------------------*/
+        .cart-page{
+            margin: 80px auto;
+        }
+        
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .cart-info{
+            display:flex;
+            flex-wrap: wrap;
+        }
+        th{
+            text-align: left;
+            padding: 5px;
+            color: #fff;
+            background: #000000;
+            font-weight: normal;
+        }
+        td{
+            padding: 10px 5px;
+        }
+        
+        td input{
+            width: 40px;
+            height: 30px;
+            padding: 5px;
+        }
+        td a{
+            color: #000000;
+        }
+        td img{
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+        }
+        .total-price{
+            display: flex;
+            justify-content: flex-end;
+        }
+        .total-price table{
+            border-top: 3px solid #000000;
+            width: 100%;
+            max-width: 400px;
+        }
+        td:last-child{
+            text-align: right;
+        }
+        th:last-child{
+            text-align: right;
+        }
+        
+
+        
+/*-----------------------single product details -----------------------*/
+
+.single-product{
+    margin-top: 80px;
+}
+.single-product .col-2 img{
+    padding:0;
+}
+.single-product .col-2{
+    padding:20px;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: apx solid #ff523b;
+}
+input:focus{
+    outline: none;
+}
+.single-product .fa{
+    color:#ff523b;
+    margin-left: 10px;
+}
+.small-img-row{
+   display:flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+      /*------------------------------ account-page ------------------------------*/
+      .account-page{
+        padding: 50px 0;
+        background-image: url("../asset/6272.jpg");
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .form-container{
+        background: #fff;
+        width:300px;
+        height: 400px;
+        position: relative;
+        text-align: center;
+        margin-top: 80px;
+        padding: 20px 0;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }
+    
+    .form-container span{
+        font-weight: bold;
+        padding: 0 10px;
+        color: #555;
+        cursor: pointer;
+        width: 100px;
+        display: inline-block;
+    }
+    
+    .form-btn{
+        display:inline-block;
+    }
+    .form-container form{
+        max-width: 300px;
+        padding: 0 20px;
+        position: absolute;
+        top: 130px;
+        transition: transform 1s;
+    }
+    
+    form input{
+        width: 100%;
+        height: 30px;
+        margin: 10px 0;
+        padding: 0 10px;
+        border: 1px solid #ccc;
+    }
+    
+    form .btn{
+        width: 100%;
+        border:none;
+        cursor:pointer;
+        margin:10px 0;
+    }
+    form .btn:focus{
+        outline: none;
+    }
+    
+    #LoginForm{
+        left: -300px;
+    }
+    #RegForm{
+        left: 0;
+    }
+    form a{
+        font-size: 12px;
+    }
+    
+    #Indicator{
+        width: 100px;
+        border: none;
+        background: #ff523b;
+        height: 3px;
+        margin-top: 8px;
+        transform: translateX(100px);
+        transition: transform 1s;
+    
+    }
+
+    /* about */
+    #about{
+        margin-top: 100px;
+    }
+    #about .container{
+        word-wrap: break-word;
+    }
